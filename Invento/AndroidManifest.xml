@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+     <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kle"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:logo="@drawable/kle">
+        
+        
+        
+        <activity android:name="com.example.abc.flash1"
+            android:screenOrientation="portrait"
+            
+                  android:label="INVENTO">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.abc.MainActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        
+        <activity
+            android:name="com.example.abc.Reg"
+            android:screenOrientation="portrait"
+            >  
+        </activity>
+        <activity
+            android:name="com.example.abc.Aboutus"
+            android:screenOrientation="portrait"
+             >
+
+        </activity>
+        
+         <activity
+            android:name="com.example.abc.abtinv"
+            android:screenOrientation="portrait"
+             >
+
+        </activity>
+        
+        <activity
+            android:name="com.example.abc.Ise"
+            android:screenOrientation="portrait"
+             >
+
+        </activity>
+        <activity
+            android:name="com.example.abc.Cse"
+            android:screenOrientation="portrait"
+             >
+
+        </activity>
+        <activity
+            android:name="com.example.abc.Mech"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name="com.example.abc.Civil"
+            android:screenOrientation="portrait"
+             >
+
+        </activity>
+        <activity
+            android:name="com.example.abc.Enc"
+            android:screenOrientation="portrait"
+             >
+
+        </activity>
+        <activity
+            android:name="com.example.abc.Auto"
+             android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.example.abc.Ise_list"
+            android:screenOrientation="portrait"
+            
+            >
+            
+        </activity>
+        
+        
+    </application>
+     
+
+</manifest>
