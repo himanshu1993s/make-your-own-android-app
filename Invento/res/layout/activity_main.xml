@@ -1,0 +1,151 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       
+
+<RelativeLayout 
+    
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/i1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button2"
+            android:gravity="center"
+            android:text="ISE" />
+
+        <Button
+            android:id="@+id/c1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button2"
+            android:text="CSE" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TableRow01"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/e1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button2"
+            android:text="EC." />
+
+        <Button
+            android:id="@+id/m1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button2"
+            android:text="Mech" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/ci1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button2"
+            android:text="Civil" />
+
+        <Button
+            android:id="@+id/a1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button2"
+            android:text="Auto" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRow2"
+        android:layout_below="@+id/tableRow2"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/au"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button2"
+            android:text="About US" />
+
+        <Button
+            android:id="@+id/in"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button2"
+            android:text="Invento" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_marginTop="10dp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tableRow3"
+        android:layout_toRightOf="@+id/tableRow3"
+        android:background="@drawable/unnamed"
+        android:text="" />
+    
+</RelativeLayout>
+</ScrollView>
