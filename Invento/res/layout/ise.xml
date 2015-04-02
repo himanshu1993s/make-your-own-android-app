@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     >
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/ise1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button2"
+            android:gravity="center"
+            android:text="Hackathon" />
+
+        <Button
+            android:id="@+id/ise2"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button2"
+            android:text="Codeflicks" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TableRow01"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/ise3"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button2"
+            android:text="Blind cipher" />
+
+        <Button
+            android:id="@+id/ise4"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button2"
+            android:text="Webextreme" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/ise5"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button2"
+            android:text="Richie rich" />
+
+        <Button
+            android:id="@+id/ise6"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button2"
+            android:text="OTH" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRow2"
+        android:layout_below="@+id/tableRow2"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/bb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bb"
+            android:ems="20"
+            android:text="" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRow2"
+        android:layout_below="@+id/tableRow2"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+    </TableRow>
+
+</RelativeLayout>
